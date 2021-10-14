@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+body{
+    text-align: center;
+}
+
+.container{
+    background-color: #F0A500;
+    width:  1000px;
+    /* height: 100vh; */
+    /* left: 400px; */
+    margin: 0 250px 0 250px;
+    
+}
+
+.first-container{
+    background-color: #BCCC9A;
+    padding: 20px 0 20px;
+}
+
+.footer-link, .yanki-link {
+    font-family: 'Bebas Neue', cursive;
+    color: #32502E;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-width: 5px;
+    padding: 0 15px 0 15px;
+}
+
+.footer-link:hover , .yanki-link:hover{
+    color: white;
+    transition-duration: 1s;
+}
+
+.yanki-link{
+    font-size: 3rem;
+}
+
+.intro-image{
+    width: 800px;
+    height: 400px;
+    padding: 0px 0 0 0;
+    background-image: url(images/gawx\ art.PNG);
+    box-shadow: 30px 0 20px rgb(0 0 0 / 20%), -30px 0px 20px rgb(0 0 0 / 20%);
+    margin: 40px 100px 0 100px;
+    background-position: center;
+    background-size: cover;
+}   
+
+.hello, .name{
+    font-family: 'Indie Flower', cursive;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    color: black;
+}
+
+.name{
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.second-container{
+    background-color: #000;
+    height: 450px;
+}
+
+/* .profile{
+    background-color: black;
+    height: 100px;
+} */
+
+.profile-picture{
+    width: 400px;
+    float: right;
+    padding: 5px;
+}
+ h1{
+    padding: 20px;
+     
+ }
+
+.about-me{
+    color: blanchedalmond;
+    line-height: 1.5;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 2rem;
+}
+
+.titleproject{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    line-height: 1rem;
+    color: #950101;
+    /* border-right-style: double;
+    border-left-style: double;
+    border-width: 5px;
+    padding: 0 0 0 0;  */
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1em;
+    margin: 0 30px 0 0;
+}
+
+/* .wrapper{
+    background-color: ;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background-color: ;
+} */
+
+.art{
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    line-height: 1;
+    color: #000;
+}
+
+.vid1{
+    width: 300px;
+    padding: 0 10px 0 10px;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center; 
+}
+
+.vid2{
+    width: 300px;
+    padding: 0 10px 0 10px;
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+}
+
+.vid3{
+    width: 300px;
+    padding: 0 10px 0 10px;
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+}
+
+.fourth-container{
+    background-color: black;
+}
+
+.numbers1{
+    display: inline-flex;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.followers, .posts, .subscribers{
+    font-family: 'Inconsolata', monospace;
+    font-size: 3rem;
+    font-weight: 400;
+    color: ivory;
+}
+
+/* .wrapper1{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-column-gap: 1em;
+} */
+
+.fifth-container{
+    padding: 20px;
+}
+
+.ig{box-shadow: 3px 3px 3px 1px #8a2a21;
+	background:linear-gradient(to bottom, #ab2b1f 5%, #f24437 100%);
+	background-color:#ab2b1f;
+	border-radius:16px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-style:italic;
+	padding:9px 13px;
+	text-decoration:none;
+	text-shadow:-1px 2px 0px #810e05;
+}
+.ig:hover{
+	background:linear-gradient(to bottom, #f24437 5%, #ab2b1f 100%);
+	background-color:#f24437;
+}
+.ig:active{
+	position:relative;
+	top:1px;
+}
+
+.gm{
+	box-shadow: 3px 3px 3px 1px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-style:italic;
+	padding:9px 13px;
+	text-decoration:none;
+	text-shadow:-1px 2px 0px #810e05;
+}
+.gm:hover{
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.gm:active{
+	position:relative;
+	top:1px;
+}
+
+.yt{
+	box-shadow: 3px 3px 3px 1px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:16px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:9px 13px;
+	text-decoration:none;
+	text-shadow:-1px 2px 0px #810e05;
+}
+.yt:hover{
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.yt:active{
+	position:relative;
+	top:1px;
+}
+
+.final{
+    display: inline;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .second-container{
+    margin: 100px;
+    width: 600px;
+    height: 60vh;
+    background-color: #F78812;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    left: 400px;
+    box-shadow: 30px 0 20px rgb(0 0 0 / 20%), 
+    -30px 0px 20px rgb(0 0 0 / 20%);
+} */
+
